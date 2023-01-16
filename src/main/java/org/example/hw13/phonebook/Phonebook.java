@@ -31,13 +31,4 @@ public class Phonebook {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        Phonebook phonebook = new Phonebook();
-        phonebook.add(new Record("Ivanov", "123"));
-        phonebook.add(new Record("Petrov", "456"));
-        phonebook.add(new Record("Ivanov", "789"));
-        System.out.println(phonebook.find("Ivanov"));
-        System.out.println(phonebook.findAll("Ivanov", "Petrov"));
-    }
 }

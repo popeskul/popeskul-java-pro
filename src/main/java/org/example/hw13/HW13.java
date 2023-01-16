@@ -45,22 +45,4 @@ public class HW13 {
 
         return result;
     }
-
-    public static void main(String[] args) {
-        int countOccurrence1 = countOccurrence(List.of("a", "b", "c", "a", "b", "a"), "a");
-        int countOccurrence2 = countOccurrence(List.of(1, 2, 3, 1, 2, 1), 1);
-        System.out.println("countOccurrence " + countOccurrence1 + " " + countOccurrence2);
-
-        String[] arrayToList1 = {"a", "b", "c", "a", "b", "a"};
-        Integer[] arrayToList2 = {1, 2, 3, 1, 2, 1};
-        System.out.println("toList " + toList(arrayToList1) + " " + toList(arrayToList2));
-
-        List<Integer> listFindUnique1 = List.of(5, 1, 2, 3, 3, 4, 5);
-        List<String> listFindUnique2 = List.of("a", "b", "c", "a", "b", "a", "d");
-        System.out.println("findUnique " + findUnique(listFindUnique1) + " " + findUnique(listFindUnique2));
-
-        List<Integer> listCalcOccurrence1 = List.of(1, 1, 2, 3, 4, 5, 0, 0, 5);
-        List<String> listCalcOccurrence2 = List.of("a", "b", "c", "d", "e", "a", "b", "a", "d");
-        System.out.println("calcOccurrence " + calcOccurrence(listCalcOccurrence1) + " " + calcOccurrence(listCalcOccurrence2));
-    }
 }
