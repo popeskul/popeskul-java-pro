@@ -1,6 +1,10 @@
 package org.example.hw13;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Map;
 
 // Originally the task was to create simple methods, but I decided to create generic methods for fun.
 public class HW13 {
