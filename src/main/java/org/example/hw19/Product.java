@@ -10,7 +10,6 @@ import java.util.stream.Collectors;
 public class Product {
     private static final String BOOK_CATEGORY = "Book";
     private static final double DISCOUNTED_PRICE_FACTOR = 0.9;
-    private static final double CHEAP_BOOK_PRICE_THRESHOLD = 75.0;
 
     private final String type;
     private final double price;
